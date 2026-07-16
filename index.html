@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nikhil Shinde | Portfolio</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="corner-mark tl"></div>
+<div class="corner-mark tr"></div>
+<div class="corner-mark bl"></div>
+<div class="corner-mark br"></div>
+
+<header>
+  <nav class="wrap">
+    <div class="logo">NS<span class="tag">DEV</span></div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" data-idx="00">Home</a></li>
+      <li><a href="#about" data-idx="01">About</a></li>
+      <li><a href="#skills" data-idx="02">Skills</a></li>
+      <li><a href="#projects" data-idx="03">Projects</a></li>
+      <li><a href="#contact" data-idx="04">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode"></button>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="sheet-label"><span class="line"></span> SHEET 00 / ELEVATION</div>
+      <h1>Nikhil Shinde —<br>Full Stack<br><span class="accent">Developer</span>.</h1>
+      <p class="lede">Building scalable web applications with modern technologies. Integrated M.Sc IT student, aspiring Cloud Engineer, and AI enthusiast.</p>
+      <div class="hero-cta">
+        <a href="https://docs.google.com/document/d/1QI8PtJAFsjg97NlJeAREe5ygsgP3I38j29ccvW3I6AI/edit?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-primary" id="resumeBtn">↓ View Resume</a>
+        <a href="https://github.com/NikhilShinde77" target="_blank" rel="noopener" class="btn btn-outline">GitHub Profile</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+    </div>
+    <div class="schematic" aria-hidden="true">
+      <svg viewBox="0 0 400 400">
+        <circle cx="200" cy="150" r="70" fill="none" class="schem-line"/>
+        <circle cx="200" cy="150" r="70" fill="none" class="schem-line schem-accent" stroke-dasharray="4 6"/>
+        <rect x="140" y="230" width="120" height="90" rx="4" fill="none" class="schem-line"/>
+        <line x1="200" y1="220" x2="200" y2="230" class="schem-line"/>
+        <line x1="70" y1="150" x2="130" y2="150" class="schem-line"/>
+        <circle cx="70" cy="150" r="3" class="schem-dot"/>
+        <text x="20" y="146" class="schem-label">FRONTEND</text>
+        <line x1="330" y1="150" x2="270" y2="150" class="schem-line"/>
+        <circle cx="330" cy="150" r="3" class="schem-dot"/>
+        <text x="300" y="146" class="schem-label">API</text>
+        <line x1="200" y1="330" x2="200" y2="360" class="schem-line"/>
+        <circle cx="200" cy="360" r="3" class="schem-dot"/>
+        <text x="150" y="380" class="schem-label">DATABASE</text>
+        <line x1="20" y1="20" x2="380" y2="20" class="schem-line" stroke-dasharray="2 4"/>
+        <line x1="20" y1="20" x2="20" y2="30" class="schem-line"/>
+        <line x1="380" y1="20" x2="380" y2="30" class="schem-line"/>
+        <text x="150" y="15" class="schem-label">400 mm</text>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="plate-no">01</span>
+      <h2>About Me</h2>
+      <div class="rule"></div>
+    </div>
+    <div class="about-grid">
+      <figure class="about-photo reveal">
+        <img src="assets/images/profile.jpg" alt="Nikhil Shinde" style="aspect-ratio:4/5; object-fit:cover; width:100%;">
+        <figcaption><span>FIG. 1.1</span><span>NIKHIL SHINDE</span></figcaption>
+      </figure>
+      <div class="about-copy reveal">
+        <p>I am <strong>Nikhil Shinde</strong>, an Integrated M.Sc IT student and aspiring Full Stack Developer. I build responsive and scalable web applications using modern frontend and backend technologies.</p>
+        <p>My core stack is <strong>the MERN stack</strong> — React.js, Node.js, Express.js, and MongoDB — and I'm currently growing into <strong>cloud infrastructure (AWS, Docker)</strong> and <strong>AI-powered systems</strong>. Recently I worked as a MERN Stack Intern at Techmicra IT Solutions, building and maintaining RESTful APIs and responsive React interfaces.</p>
+        <p>I enjoy solving problems, learning new technologies, and building real-world projects — from multi-agent AI platforms to Redis-backed queues and OTP services.</p>
+        <div class="stat-row">
+          <div class="stat"><div class="num">3+</div><div class="label">Projects Shipped</div></div>
+          <div class="stat"><div class="num">2</div><div class="label">Internships</div></div>
+          <div class="stat"><div class="num">Sem 6</div><div class="label">BSc IT, Gujarat Univ.</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills" style="background: color-mix(in srgb, var(--paper-line) 18%, transparent);">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="plate-no">02</span>
+      <h2>Skills Section</h2>
+      <div class="rule"></div>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card"><span class="icon">[ FE ]</span><h3>HTML5 / CSS3 / Flexbox / Grid</h3><div class="bar-track"><div class="bar-fill" data-pct="90"></div></div><span class="pct">90%</span></div>
+      <div class="skill-card"><span class="icon">[ FE ]</span><h3>JavaScript (ES6+) / React.js</h3><div class="bar-track"><div class="bar-fill" data-pct="88"></div></div><span class="pct">88%</span></div>
+      <div class="skill-card"><span class="icon">[ BE ]</span><h3>Node.js / Express.js / REST APIs</h3><div class="bar-track"><div class="bar-fill" data-pct="85"></div></div><span class="pct">85%</span></div>
+      <div class="skill-card"><span class="icon">[ DB ]</span><h3>MongoDB / Mongoose / SQL</h3><div class="bar-track"><div class="bar-fill" data-pct="82"></div></div><span class="pct">82%</span></div>
+      <div class="skill-card"><span class="icon">[ LANG ]</span><h3>Java / Python / C</h3><div class="bar-track"><div class="bar-fill" data-pct="78"></div></div><span class="pct">78%</span></div>
+      <div class="skill-card"><span class="icon">[ CS ]</span><h3>Data Structures &amp; OOP</h3><div class="bar-track"><div class="bar-fill" data-pct="80"></div></div><span class="pct">80%</span></div>
+      <div class="skill-card"><span class="icon">[ OPS ]</span><h3>Git / GitHub / Docker</h3><div class="bar-track"><div class="bar-fill" data-pct="75"></div></div><span class="pct">75%</span></div>
+      <div class="skill-card"><span class="icon">[ CLOUD ]</span><h3>AWS (Learning)</h3><div class="bar-track"><div class="bar-fill" data-pct="55"></div></div><span class="pct">55%</span></div>
+      <div class="skill-card"><span class="icon">[ CACHE ]</span><h3>Redis (Queues, OTP, Pub/Sub)</h3><div class="bar-track"><div class="bar-fill" data-pct="65"></div></div><span class="pct">65%</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="plate-no">03</span>
+      <h2>Projects Showcase</h2>
+      <div class="rule"></div>
+    </div>
+    <div class="projects-grid">
+      <div class="project-card reveal">
+        <div class="project-thumb" style="background:none; padding:0;">
+          <img src="assets/images/proj1.jpg" alt="Multi-Agent AI Platform preview" style="width:100%; height:100%; object-fit:cover;">
+        </div>
+        <div class="project-body">
+          <h3>Multi-Agent AI Platform</h3>
+          <p>A multi-agent AI platform built beyond a simple chatbot — microservices architecture with RAG-powered retrieval and LangChain/LangGraph agent orchestration.</p>
+          <div class="tag-row"><span class="tag">MongoDB</span><span class="tag">Express.js</span><span class="tag">React.js</span><span class="tag">Node.js</span><span class="tag">Redis</span><span class="tag">Docker</span><span class="tag">RAG</span><span class="tag">LangChain</span><span class="tag">LangGraph</span></div>
+          <div class="project-links"><a href="#">Live Demo</a><a href="https://github.com" target="_blank" rel="noopener">Source Code</a></div>
+        </div>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-thumb" style="background:none; padding:0;">
+          <img src="assets/images/proj2.jpg" alt="AI-Powered Interview Platform preview" style="width:100%; height:100%; object-fit:cover;">
+        </div>
+        <div class="project-body">
+          <h3>AI-Powered Interview Platform</h3>
+          <p>A multi-agent interview preparation platform with dedicated Resume, Interview, Feedback, and Roadmap agents guiding candidates end-to-end.</p>
+          <div class="tag-row"><span class="tag">MongoDB</span><span class="tag">Express.js</span><span class="tag">React.js</span><span class="tag">Node.js</span><span class="tag">Redis</span><span class="tag">Docker</span><span class="tag">LangChain</span><span class="tag">LangGraph</span><span class="tag">AWS</span></div>
+          <div class="project-links"><a href="#">Live Demo</a><a href="https://github.com" target="_blank" rel="noopener">Source Code</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" style="background: color-mix(in srgb, var(--paper-line) 18%, transparent);">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="plate-no">04</span>
+      <h2>Contact</h2>
+      <div class="rule"></div>
+    </div>
+    <div class="contact-grid">
+      <form id="contactForm">
+        <div class="field">
+          <label for="name">Name</label>
+          <input type="text" id="name" required placeholder="Your name">
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" required placeholder="you@example.com">
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" required placeholder="Tell me about your project..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+        <div class="form-status" id="formStatus"></div>
+      </form>
+      <div class="contact-info reveal">
+        <h3>Let's build something.</h3>
+        <p>Open to Software Engineer, Full Stack Developer, and Cloud Engineer roles, as well as internships and collaborations.</p>
+        <div class="info-row"><span class="k">EMAIL</span><span>nikhilshinde15651@gmail.com</span></div>
+        <div class="info-row"><span class="k">PHONE</span><span>+91 91579 20904</span></div>
+        <div class="info-row"><span class="k">LOCATION</span><span>Ahmedabad, India</span></div>
+        <div class="social-row">
+          <a href="https://github.com/NikhilShinde77" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.4 7.86 10.93.57.1.78-.25.78-.55 0-.27-.01-1-.02-1.96-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.8 1.19 1.83 1.19 3.09 0 4.41-2.7 5.39-5.27 5.67.42.36.78 1.08.78 2.17 0 1.57-.01 2.83-.01 3.22 0 .3.2.66.79.55A10.52 10.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/nikhil-shinde-73b403331/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.15 1.45-2.15 2.95v5.66H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.8 0 0 .78 0 1.75v20.5C0 23.22.8 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.75V1.75C24 .78 23.2 0 22.22 0z"/></svg>
+          </a>
+          <a href="#" aria-label="Twitter/X" title="Twitter / X">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 1.98h3.68l-8.04 9.19L24 22.02h-7.41l-5.8-7.58-6.64 7.58H.46l8.6-9.83L0 1.98h7.6l5.24 6.93 6.06-6.93zm-1.3 17.83h2.04L6.5 4.08H4.3l13.3 15.73z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Nikhil Shinde — All drawings final.</span>
+    <a href="#home" class="back-top">↑ Back to top</a>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
