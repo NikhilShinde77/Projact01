@@ -13,9 +13,7 @@ A fully responsive, modern personal portfolio website built with **HTML5, CSS3, 
 
 ## 🔗 Live Demo
 
-🚀 **[View Live Website](#)** &nbsp; | &nbsp; 📄 **[Download Resume](#)**
-
-> Replace the links above with your actual GitHub Pages / Vercel URL and resume file link once deployed.
+🚀 **[View Live Website](https://nikhilshinde77.netlify.app/#home)** &nbsp; | &nbsp; 📄 **[Download Resume](https://docs.google.com/document/d/1QI8PtJAFsjg97NlJeAREe5ygsgP3I38j29ccvW3I6AI/edit?usp=sharing)**
 
 ---
 
@@ -23,9 +21,9 @@ A fully responsive, modern personal portfolio website built with **HTML5, CSS3, 
 
 | Desktop View | Mobile View |
 |:---:|:---:|
-| ![Desktop Screenshot](assets/screenshots/desktop.png) | ![Mobile Screenshot](assets/screenshots/mobile.png) |
+| [View Website Screenshot](https://drive.google.com/file/d/1UNbQtT6TRC-mycXHXuofDrB3zi4m3Kbj/view?usp=drive_link) | [View Mobile Screenshot](https://drive.google.com/file/d/1pVQPtbnT5B-FHP8P2QkEY7FrxR0AT5so/view?usp=drive_link) |
 
-> Add your actual screenshots inside an `assets/screenshots/` folder and update the paths above.
+> Screenshots are hosted on Google Drive. For a polished GitHub README, consider downloading these images and placing them inside an `assets/screenshots/` folder, then embedding them directly with `![Desktop Screenshot](assets/screenshots/desktop.png)` so they render inline instead of as links.
 
 ---
 
